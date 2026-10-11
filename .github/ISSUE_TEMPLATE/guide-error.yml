@@ -1,0 +1,35 @@
+name: Guide error / 指南错误
+description: A guide on photocraft.im is wrong, out of date or has a broken link. / photocraft.im 上的指南写错了、过时了或链接失效。
+title: "[Error] "
+labels: ["guide-error"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Page URL / 页面地址
+      placeholder: https://photocraft.im/guides/shortcuts
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong? / 哪里有问题？
+      description: Quote the sentence if you can, and say what it should be. / 尽量引用原句，并说明正确的内容。
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: PhotoCraft version you tested / 你测试的 PhotoCraft 版本
+      description: Help › About PhotoCraft, or `photocraft --version`.
+      placeholder: v0.7.0
+  - type: input
+    id: os
+    attributes:
+      label: Operating system / 操作系统
+      placeholder: Windows 11 / macOS 15 / Ubuntu 24.04
+  - type: textarea
+    id: source
+    attributes:
+      label: Source / 依据
+      description: A link to the upstream release, issue, PR or doc that shows the correct behaviour, if you have one. / 如有，请附上上游发布说明、Issue、PR 或文档链接。

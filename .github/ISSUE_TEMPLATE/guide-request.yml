@@ -1,0 +1,20 @@
+name: Guide request / 指南建议
+description: Suggest a topic or a missing section. / 建议新的主题或补充内容。
+title: "[Request] "
+labels: ["guide-request"]
+body:
+  - type: textarea
+    id: topic
+    attributes:
+      label: What would you like a guide on? / 你希望增加什么内容？
+      description: What were you trying to do in PhotoCraft, and where did you get stuck? / 你想用 PhotoCraft 做什么，卡在了哪里？
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language / 语言
+      options:
+        - English
+        - 简体中文
+        - Both / 都需要

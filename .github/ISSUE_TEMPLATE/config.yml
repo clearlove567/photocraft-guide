@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: PhotoCraft bug or feature request / PhotoCraft 软件本身的 Bug 或功能建议
+    url: https://github.com/storytold/photocraft/issues
+    about: Problems with PhotoCraft itself belong in the official repository, not here. / 软件本身的问题请提交到官方仓库。
+  - name: Read the guides / 阅读指南
+    url: https://photocraft.im/guides
+    about: All guides, in English and Simplified Chinese. / 全部指南，中英文。
